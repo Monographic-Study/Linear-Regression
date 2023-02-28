@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      table {
+        border: 1px solid black;
+      }
+      td {
+        border: 1px solid black;
+      }
+      table, td, th {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse;
+        width: 500px;
+      }
+      td {
+        text-align: center;
+      }
+    </style>
+    <title>SuperZap</title>
+  </head>
+  <body>
+    <h1>數據預測系統</h1>
+    <input type="file" name="grid" id="csv">
+    <br>
+    <svg id="myPlot" style="width:500px; height:500px"></svg>
+    <table id="myGrid"></table>
+  </body>
+  <script type="module" src="/src/main.ts"></script>
+</html>
